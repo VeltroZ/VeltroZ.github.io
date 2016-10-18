@@ -1,7 +1,7 @@
 body
 {
 	text-align: center;
-	background-color: #d7d4d8;
+	background-color: #cecece;
 
 }
 
@@ -17,20 +17,36 @@ nav
 	border-left: 2px solid;
 	border-right: 2px solid;
 	border-radius: 10px;
-	background-color: #506ded;
+	background-color: #5bb255;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	margin-left: 15%;
+	margin-right: 15%;
 
 }
 button
 {
 	color: green;
-	font-family: 'Righteous', cursive;
+	font-family: 'Wendy One', sans-serif;
+}
+footer
+{
+	position: fixed;
+	bottom: -10px;
+	right: 10px;
+	font-size: 12px;
+}
+
+h2
+{
+	text-decoration: underline;
+
+
 }
 
 .contentL
 {
-	font-family: 'Russo One', sans-serif;
+	font-family: 'Wendy One', sans-serif;
 	float: left;
 	border-right: solid 2px;
 	border-bottom: solid 2px;
@@ -41,7 +57,7 @@ button
 
 .contentR
 {
-	font-family: 'Russo One', sans-serif;
+	font-family: 'Wendy One', sans-serif;
 	float: right;
 
 }
@@ -52,7 +68,7 @@ button
 
 #titre
 {
-	color: blue;
+	color: #5bb255;
 	font-family: 'Bungee Inline', cursive;
 }
 #lien
@@ -62,4 +78,26 @@ button
 	font-size: 20px;
 	margin-left: 25px;
 	margin-right: 25px;
+}
+
+#contentAppli
+{
+	margin-top: 100px;
+	background-color: #b2b2b2;
+	padding-bottom: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#contentminijeu
+{
+	background-color: #b2b2b2;
+	padding-bottom: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+#red
+{
+	color: red;
+	text-decoration: underline;
 }
