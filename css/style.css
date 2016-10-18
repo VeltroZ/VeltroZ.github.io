@@ -1,6 +1,16 @@
 body
 {
 	text-align: center;
-	color: blue;
 
+}
+
+#titre
+{
+	color: blue;
+	font-family: 'Bungee Inline', cursive;
+}
+
+header
+{
+	border-bottom: solid 2px;
 }
