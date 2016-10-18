@@ -1,24 +1,41 @@
 body
 {
 	text-align: center;
+	background-color: #d7d4d8;
 
-}
-
-#titre
-{
-	color: blue;
-	font-family: 'Bungee Inline', cursive;
 }
 
 header
 {
-	border-bottom: solid 2px;
+	margin-bottom: 5px
+}
+
+nav
+{
+	border-top: 2px solid;
+	border-bottom: 2px solid;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	border-radius: 10px;
+	background-color: #506ded;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+button
+{
+	color: green;
+	font-family: 'Righteous', cursive;
 }
 
 .contentL
 {
 	font-family: 'Russo One', sans-serif;
 	float: left;
+	border-right: solid 2px;
+	border-bottom: solid 2px;
+	border-left: solid 2px;
+	padding-right: 15px
 
 }
 
@@ -27,4 +44,22 @@ header
 	font-family: 'Russo One', sans-serif;
 	float: right;
 
+}
+.contentCenter
+{
+	text-align: center;
+}
+
+#titre
+{
+	color: blue;
+	font-family: 'Bungee Inline', cursive;
+}
+#lien
+{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
