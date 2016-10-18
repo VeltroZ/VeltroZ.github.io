@@ -14,3 +14,17 @@ header
 {
 	border-bottom: solid 2px;
 }
+
+.contentL
+{
+	font-family: 'Russo One', sans-serif;
+	float: left;
+
+}
+
+.contentR
+{
+	font-family: 'Russo One', sans-serif;
+	float: right;
+
+}
