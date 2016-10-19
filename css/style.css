@@ -1,7 +1,28 @@
 body
 {
 	text-align: center;
-	background-color: #cecece;
+	background-color: #EFECCA;
+
+}
+
+.bodybleu
+{
+	text-align: center;
+	background-color: #c5d8f7;
+
+}
+
+.bodyvert
+{
+	text-align: center;
+	background-color: #c5f7c6;
+
+}
+
+.bodyrouge
+{
+	text-align: center;
+	background-color: #ed9595;
 
 }
 
@@ -17,7 +38,7 @@ nav
 	border-left: 2px solid;
 	border-right: 2px solid;
 	border-radius: 10px;
-	background-color: #5bb255;
+	background-color: #046380;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	margin-left: 15%;
@@ -26,7 +47,7 @@ nav
 }
 button
 {
-	color: green;
+	color: #000000;
 	font-family: 'Wendy One', sans-serif;
 }
 footer
@@ -66,24 +87,10 @@ h2
 	text-align: center;
 }
 
-#titre
-{
-	color: #5bb255;
-	font-family: 'Bungee Inline', cursive;
-}
-#lien
-{
-	text-decoration: none;
-	color: black;
-	font-size: 20px;
-	margin-left: 25px;
-	margin-right: 25px;
-}
-
 #contentAppli
 {
 	margin-top: 100px;
-	background-color: #b2b2b2;
+	background-color: #A7A37E;
 	padding-bottom: 50px;
 	margin-left: 20%;
 	margin-right: 20%;
@@ -91,11 +98,58 @@ h2
 
 #contentminijeu
 {
-	background-color: #b2b2b2;
+	background-color: #A7A37E;
 	padding-bottom: 50px;
 	margin-left: 20%;
 	margin-right: 20%;
 }
+
+#contentOptions
+{
+	background-color: #A7A37E;
+	border-radius: 50px;
+	padding-bottom: 10px;
+	padding-top: 75px;
+	margin-top: 25px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#titre
+{
+	color: #002F2F;
+	font-family: 'Bungee Inline', cursive;
+	border: 2px solid;
+	border-radius: 15px;
+	border-color: #046380;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+#lien
+{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+#lienEnDev
+{
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+}
+
+#lienNav
+{
+	text-decoration: none;
+	color: White;
+	font-size: 20px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+
+
 #red
 {
 	color: red;
